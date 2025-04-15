@@ -1,0 +1,18 @@
+/* استایل اصلی (برای عرض‌های بالای 500px) */
+.Toastify__toast-container {
+    margin-top: 20px;
+  }
+  
+  /* استایل برای عرض‌های زیر 500px */
+  @media (max-width: 500px) {
+    .Toastify__toast-container {
+      width: 250px !important;
+     
+    }
+  
+    /* اطمینان حاصل کنید که toastها نیز متناسب با عرض جدید باشند */
+    .Toastify__toast {
+      width: 100% !important;
+     
+    }
+  }

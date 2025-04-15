@@ -1,0 +1,17 @@
+@font-face{
+  font-family: "Dana";
+  src: url("../src/font/Dana/Dana/Dana-FaNum-Regular.woff");
+}
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  
+}
+* ,*::after ,*::before {
+  box-sizing: inherit;
+}
+
+.swal2-popup {
+  font-family: 'Dana', sans-serif !important;
+}

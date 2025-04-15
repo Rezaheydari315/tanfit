@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "bkodak";
+  src: url('../../font/B-Koodak/Bkodak1.ttf');
+}
+.mainparent_input_otp{
+  font-family: "bkodak";
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    backdrop-filter: blur(23px);
+    width: 100%;
+    height: 100%;
+    direction: ltr;
+    margin-top: -50px;
+    padding-top: 50px;
+}
+.iconClose {
+  width: 40px;
+  height: 40px;
+}
+.parent_input_otp{
+  font-family: "bkodak";
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.input_otp_header{
+  font-family: "bkodak";
+}
+
+.input_otp{
+  font-family: "bkodak";
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+}
+.input_value{
+  width: 220px;
+  height: 30px;
+  outline: none;
+ border: none;
+ font-size: 17px;
+ border-radius: 4px;
+ text-align: end;
+ border: 1px solid #66666659;
+ padding-right: 5px;
+}
+
+.input_otp_btn{
+  font-family: "bkodak";
+ width: 220px;
+ height: 30px;
+ outline: none;
+ border: none;
+ background-color: #10B982;
+ color: aliceblue;
+ font-size: 17px;
+ border-radius: 7px;
+margin-top: 40px;
+}

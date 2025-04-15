@@ -1,0 +1,294 @@
+@font-face {
+  font-family: "Kantumruy";
+  src: url("../../font/Kantumruy/Kantumruy-Regular.woff");
+}
+@font-face{
+  font-family: "DanaFaNum";
+  src: url("../../font/Dana/Dana/Dana-FaNum-Regular.woff");
+}
+@font-face{
+  font-family: "Dana";
+  src: url("../../font/Dana/Dana/Dana-Regular.woff");
+}
+@font-face{
+  font-family: "AkayaKanadaka";
+  src: url("../../font/AkayaKanadaka/AkayaKanadaka-Regular.woff");
+}
+@font-face{
+  font-family: "days";
+  src: url("../../font/days/DaysOne-Regular.woff");
+}
+@font-face{
+  font-family: "inter";
+  src: url("../../font/inter/Inter-Medium.woff");
+}
+@font-face{
+  font-family: "KirangHaerang";
+  src: url("../../font/KirangHaerang/KirangHaerang-Regular.woff");
+}
+@font-face{
+  font-family: "Microsoft";
+  src: url("../../font/Microsoft/Microsoft-JhengHei-Regular.woff");
+}
+
+
+
+.Signup{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    width: 900px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid #66666659; */
+    border-radius:11px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #FBFBFB;
+    
+}
+
+.Signup_right{
+   margin-top: -34px;
+   width: 50%;
+   height: 500px;
+   border-radius: 10px;
+   background-image: url('../../../public/Image/Login/2/2.jpg');
+   background-color: inherit;
+   background-repeat: no-repeat;
+   background-size:cover;
+   padding-left: 15px;
+   padding-right: 15px;
+   display: flex;
+   justify-content: space-between;
+   padding-top: 10px;
+   position: relative;
+}
+
+.Signup_right_title{
+   font-size: 18px;
+   font-weight: normal;
+   
+}
+.Signup_right_icon{
+    width: 62px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#3CFF8D, #4FBBFF);
+    margin-top: -10px;
+    margin-right: -15px;
+    border-radius: 5px;
+   
+}
+.Signup_right_icon_span{
+  color: #FBFBFB;
+}
+
+
+
+.Signup_left{
+  /* border: 1px solid #66666659; */
+  width: 47%;
+  border-radius: 7px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+  padding-left: 18px;
+  padding-right: 18px;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2) ; */
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  background-color: #FFFFFF;
+}
+.Signup_left_header{
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-family: "KirangHaerang";
+}
+.parent_Signup_left_name{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -15px;
+  text-align: start;
+}
+.Signup_left_firstName{
+   width: 46%;
+}
+.Signup_left_firstName_title{
+ margin-bottom: 6px;
+ font-family: "KirangHaerang";
+}
+.Signup_left_firstName_input{
+    width: 100%;
+    font-size: 12px;
+    height: 25px;
+    outline: none;
+    border: 1px solid #66666659;
+    border-radius: 3px;
+    padding-right: 7px;
+    font-family: "KirangHaerang";
+    font-size: 15px;
+}
+.Signup_left_lastName{
+  width: 49%;
+}
+.Signup_left_lastName_title{
+  margin-right: 3px;
+  margin-bottom: 7px;
+  font-family: "KirangHaerang";
+}
+.Signup_left_lastName_input{
+    width: 100%;
+    height: 25px;
+    outline: none;
+    border: 1px solid #66666659;
+    border-radius: 3px;
+    padding-right: 7px;
+    font-family: "KirangHaerang";
+    font-size: 15px;
+}
+.parent_Signup_left_userNeme{
+   text-align: start;
+}
+.Signup_left_userNeme_title{
+ margin-bottom: 7px;
+ margin-right: 3px;
+ font-family: "KirangHaerang";
+}
+.Signup_left_userNeme_input{
+    outline: none;
+    border: 1px solid #66666659;
+    width: 100%;
+    height: 25px;
+    border-radius: 3px;
+    padding-right: 7px;
+    font-family: "KirangHaerang";
+    font-size: 15px;
+}
+
+.parent_Signup_left_email{
+  text-align: start;
+}
+.Signup_left_email_title{
+  margin-bottom: 7px;
+  margin-right: 3px;
+  font-family: "KirangHaerang";
+}
+.Signup_left_email_input{
+  outline: none;
+  border: 1px solid #66666659;
+  width: 100%;
+  height: 25px;
+  border-radius: 3px;
+  padding-right: 7px;
+  font-family: "KirangHaerang";
+  font-size: 15px;
+}
+
+.parent_Signup_left_password{
+    text-align: start;
+}
+.Signup_left_password_title{
+    margin-bottom: 7px;
+ margin-right: 3px;
+ font-family: "KirangHaerang";
+}
+.Signup_left_password_input{
+    outline: none;
+    border: 1px solid #66666659;
+    width: 100%;
+    height: 25px;
+    border-radius: 3px;
+    padding-right: 7px;
+    font-family: "KirangHaerang";
+    font-size: 15px;
+}
+
+
+.parent_Signup_left_age{
+    text-align: start;
+}
+.Signup_left_age_title{
+    margin-bottom: 7px;
+    margin-right: 3px;
+    font-family: "KirangHaerang";
+}
+.Signup_left_age_input{
+    outline: none;
+    border: 1px solid #66666659;
+    width: 100%;
+    height: 25px;
+    border-radius: 3px;
+    padding-right: 7px;
+    font-family: "KirangHaerang";
+    font-size: 15px;
+}
+.Signup_left_btn{
+  color: #FFFFFF;
+  width: 100%;
+  background-color: #10B982;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  height: 28px;
+  font-size: 17px;
+  font-family: "AkayaKanadaka";
+}
+.Signup_left_footer{
+  margin-top: 15px;
+  margin-bottom: 13px;
+}
+.Signup_left_footer_title{
+    font-size: 14px;
+    font-family: "Inter";
+}
+.Signup_left_footer_btnLogin{
+  text-decoration: none;
+  color: #2F71FF;
+  font-size: 14px;
+  margin-right: 10px;
+  font-family: "Inter";
+}
+
+@media (max-width:1000px) {
+  .Signup{
+    width: 700px;
+  }
+  .Signup_right{
+    background-size: contain;
+  }
+  
+}
+
+@media  (max-width:769px) {
+  .Signup_right{
+    display: none;
+    width: 0;
+  }
+  .Signup_left{
+    width: 85%;
+  }
+  .Signup_left_firstName_input {
+    width: 92%;
+  }
+  .Signup_left_lastName_input {
+    width: 100%;
+  }
+  .Signup{
+    justify-content: center;
+    width: 418px;
+  }
+  
+  }
+
+  @media (max-width:480px) {
+    .Signup{
+      width: 300px;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }

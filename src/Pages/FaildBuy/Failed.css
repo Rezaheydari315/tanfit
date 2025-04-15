@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Kantumruy";
+    src: url("../../font/Kantumruy/Kantumruy-Regular.woff");
+  }
+  @font-face{
+    font-family: "DanaFaNum";
+    src: url("../../font/Dana/Dana/Dana-FaNum-Regular.woff");
+  }
+  @font-face{
+    font-family: "Dana";
+    src: url("../../font/Dana/Dana/Dana-Regular.woff");
+  }
+  @font-face{
+    font-family: "AkayaKanadaka";
+    src: url("../../font/AkayaKanadaka/AkayaKanadaka-Regular.woff");
+  }
+  @font-face{
+    font-family: "days";
+    src: url("../../font/days/DaysOne-Regular.woff");
+  }
+  @font-face{
+    font-family: "inter";
+    src: url("../../font/inter/Inter-Medium.woff");
+  }
+  @font-face{
+    font-family: "KirangHaerang";
+    src: url("../../font/KirangHaerang/KirangHaerang-Regular.woff");
+  }
+  @font-face{
+    font-family: "Microsoft";
+    src: url("../../font/Microsoft/Microsoft-JhengHei-Regular.woff");
+  }
+  
+  
+  /* استایل دکمه باز کردن مودال */
+  
+  
+    
+    /* استایل پس‌زمینه مودال */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #D9D9D9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+    
+    /* استایل محتوای مودال */
+    .modal-content {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .modal-content_icon{
+      width: 50px;
+      height: 50px;
+      color:#DF314E;
+    }
+    
+    .modal-content h2 {
+      margin-bottom: 10px;
+      color: #DF314E; /* سبز برای نشان دادن موفقیت */
+    }
+    
+    .modal-content p {
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
+    
+    /* استایل دکمه بستن مودال */
+    .close-modal-button {
+      background-color: #DF314E;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+    
+    .close-modal-button:hover {
+      background-color: #DF314E;
+    }

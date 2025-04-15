@@ -1,0 +1,1377 @@
+@font-face {
+  font-family: "Kantumruy";
+  src: url("../../font/Kantumruy/Kantumruy-Regular.woff");
+}
+@font-face{
+  font-family: "DanaFaNum";
+  src: url("../../font/Dana/Dana/Dana-FaNum-Regular.woff");
+}
+@font-face{
+  font-family: "Dana";
+  src: url("../../font/Dana/Dana/Dana-Regular.woff");
+}
+@font-face{
+  font-family: "AkayaKanadaka";
+  src: url("../../font/AkayaKanadaka/AkayaKanadaka-Regular.woff");
+}
+@font-face{
+  font-family: "days";
+  src: url("../../font/days/DaysOne-Regular.woff");
+}
+@font-face{
+  font-family: "inter";
+  src: url("../../font/inter/Inter-Medium.woff");
+}
+@font-face{
+  font-family: "KirangHaerang";
+  src: url("../../font/KirangHaerang/KirangHaerang-Regular.woff");
+}
+@font-face{
+  font-family: "Microsoft";
+  src: url("../../font/Microsoft/Microsoft-JhengHei-Regular.woff");
+}
+@font-face {
+  font-family: "jsMath";
+  src: url("../../font/jsMath/jsMath-cmmi10.woff");
+}
+
+
+.parent_Home {
+  width: 100%;
+  height: 100vh;
+
+}
+
+
+
+/*introduction */
+.Home {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.Home_introduction {
+  background-image: url(../../../public/Image/Home_intro/c90dfec4cd344b6b7d0147237aceee88.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.Home_introduction_title {
+  color: #FFFFFF;
+  font-size: 38px;
+  font-family: "jsMath";
+}
+
+.Home_introduction_desc {
+  color: #FFFFFF;
+  font-size: 25px;
+  font-family: "DanaFaNum";
+}
+
+.Home_introduction_parent_information {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.Home_introduction_parent_learnHours {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  color: #FFFFFF;
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Home_introduction_learnHours_icon {
+  width: 50px;
+  height: 50px;
+}
+
+.Home_introduction_learnHours_number {
+  font-size: 20px;
+  margin-top: -3px;
+  font-family: "Kantumruy";
+}
+
+.Home_introduction_learnHours_title {
+  font-size: 18px;
+  margin-top: -25px;
+  font-family: "Kantumruy";
+}
+
+.Home_introduction_parent_Course {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+}
+
+.Home_introduction_Course_icon {
+  width: 50px;
+  height: 50px;
+}
+
+.Home_introduction_Course_number {
+  font-size: 20px;
+  margin-top: -3px;
+  font-family: "Kantumruy";
+}
+
+.Home_introduction_Course_title {
+  font-size: 18px;
+  margin-top: -25px;
+  font-family: "Kantumruy";
+}
+
+.Home_introduction_parent_Users {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+
+}
+
+.Home_introduction_Users_icon {
+  width: 50px;
+  height: 50px;
+}
+
+.Home_introduction_Users_number {
+  font-size: 20px;
+  margin-top: -3px;
+  font-family: "Kantumruy";
+}
+
+.Home_introduction_Users_title {
+  font-size: 18px;
+  margin-top: -25px;
+  font-family: "Kantumruy";
+}
+
+
+
+
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.parent_Home_information {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 180px;
+  margin-bottom: 180px;
+  scroll-margin-top: 90px;
+}
+
+.Home_information {
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgba(255, 255, 255, 2.3);
+  opacity: 1;
+  border-radius: 8px;
+  position: relative;
+}
+
+.depend_Home_information1 {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  position: absolute;
+  top: -63px;
+  left: -27px;
+  background: linear-gradient(#1F97FA, #61E5E5);
+  opacity: 1;
+  z-index: -1000;
+}
+
+.depend_Home_information2 {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  position: absolute;
+  bottom: -50px;
+  right: -28px;
+  background: linear-gradient(#1F97FA, #61E5E5);
+  z-index: -1000;
+}
+
+.Home_information_right {
+  width: 50%;
+  padding-left: 20px;
+  flex: 1;
+}
+
+.parent_Home_information_right_left {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+
+.Home_information_right_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.Home_information_right_top_right {
+  display: flex;
+  align-items: center;
+}
+
+.information_header_parent_shape {
+  display: flex;
+  align-items: center;
+}
+
+.information_header_shape1 {
+  width: 10px;
+  height: 20px;
+  background-color: #026596;
+}
+
+.information_header_shape2 {
+  width: 11px;
+  height: 25px;
+  background-color: #0397CD;
+}
+
+.information_header_shape3 {
+  width: 13px;
+  height: 30px;
+  background-color: #27C5FF;
+}
+
+.Home_information_right_top_right_title {
+  margin-right: 10px;
+  font-family: "Kantumruy";
+}
+
+.Home_information_right_top_left {}
+
+.Home_information_right_top_left_title {
+  font-family: "Kantumruy";
+}
+
+.Home_information_right_desc {
+  color: #949494;
+  font-family: "Kantumruy";
+}
+
+.Home_information_right_addres {
+  font-size: 15px;
+  margin-top: 55px;
+  font-family: "Kantumruy";
+}
+
+.Home_information_right_addres_bold {
+  font-size: 18px;
+  font-family: "Kantumruy";
+}
+
+.Home_information_left {
+  width: 48%;
+  padding-top: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  flex: 1;
+  margin-top: -70px;
+}
+
+
+
+
+
+
+
+
+
+/*course Suggestion*/
+.Course_Suggestion {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 60px;
+}
+
+.Course_Suggestion_header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.Course_Suggestion_header_parent_shape {
+  display: flex;
+  align-items: center;
+}
+
+.Course_Suggestion_header_shape1 {
+  width: 10px;
+  height: 20px;
+  background-color: #8B5305;
+}
+
+.Course_Suggestion_header_shape2 {
+  width: 11px;
+  height: 25px;
+  background-color: #CE7B07;
+}
+
+.Course_Suggestion_header_shape3 {
+  width: 13px;
+  height: 30px;
+  background-color: #FFAA32;
+}
+
+.Course_Suggestion_header_title {
+  font-size: 30px;
+  font-family: "Kantumruy";
+  font-weight: bold;
+}
+
+/*CourseSuggestionItems*/
+.Course_Suggestion_items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.Course_Suggestion_items *{
+  text-decoration: none
+}
+
+.Course_Suggestion_item {
+  width: 350px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #FFFFFF;
+  padding-top: 10px;
+  border-radius: 7px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+
+.Course_Suggestion_item_image {
+  width: 100%;
+  height: 290px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.Course_Suggestion_item_title {
+  margin-top: -2px;
+  color: #000000;
+  font-family: "Kantumruy";
+}
+
+.Course_Suggestion_item_desc {
+  color: #949494;
+  font-family: "Kantumruy";
+
+}
+
+.Course_Suggestion_item_parent_nameTeacher_star {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Course_Suggestion_item_parentTaecher {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  font-family: "Kantumruy";
+}
+
+.Course_Suggestion_item_Taecher {
+  color: #4FADD6;
+  font-family:"Kantumruy";
+}
+
+.Course_Suggestion_item_NameTaecher {
+  color: #4FADD6;
+  font-family:"Kantumruy";
+}
+
+.Course_Suggestion_item_parent_stars {
+  display: flex;
+  align-items: center;
+
+}
+
+.Course_Suggestion_item_stars_numb {
+  margin-left: 7px;
+  color: #FCC81F;
+  font-family:"Kantumruy";
+}
+
+.Course_Suggestion_item_stars_icon {
+  color: #FCC81F;
+}
+
+.Course_Suggestion_item_parent_user_price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 13px;
+  margin-bottom: 10px;
+}
+.Course_Suggestion_item_user_numb{
+  font-family: "DanaFaNum";
+}
+.Course_Suggestion_item_parent_user {
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.Course_Suggestion_item_price_delete {
+  color: #9F9F9F;
+  font-family: "Dana";
+}
+
+.Course_Suggestion_item_price_SapnDelete {
+  color: #9F9F9F;
+  font-family: "Dana";
+}
+
+.Course_Suggestion_item_price_main {
+  color: #1F97FA;
+  font-family: "DanaFaNum";
+}
+
+.Course_Suggestion_item_price_SpanMain {
+  color: #1F97FA;
+  font-family: "Dana";
+}
+
+
+
+
+
+/*courseList*/
+.Course_List {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 180px;
+  scroll-margin-top: 80px;
+}
+
+.Course_lsit_header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.Course_list_header_parent_shape {
+  display: flex;
+  align-items: center;
+}
+
+.Course_list_header_shape1 {
+  width: 10px;
+  height: 20px;
+  background-color: #019C5A;
+}
+
+.Course_list_header_shape2 {
+  width: 11px;
+  height: 25px;
+  background-color: #1EBF7A;
+}
+
+.Course_list_header_shape3 {
+  width: 13px;
+  height: 30px;
+  background-color: #3DE99F;
+}
+
+.Course_list_header_title {
+  font-size: 30px;
+  font-family:"Kantumruy";
+  font-weight: bold;
+}
+
+
+.search_Course_List_content__top_mobile {
+  display: none;
+  width: 250px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  padding-right: 10px;
+  padding-left: 10px;
+  height: 40px;
+  margin-bottom: 15px;
+}
+
+.search_Course_List_content__top_mobile_input {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  height: 100%;
+}
+
+.search_Course_List_content__top_mobile_icon {}
+
+
+.Course_List_content {
+  display: flex;
+}
+
+.Course_List_content_right {
+  width: 250px;
+}
+
+.Course_List_content_right_top {
+  width: 250px;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 22px;
+}
+
+.Course_List_content_right_top_parent_free {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Course_List_content_right_top_free_title {
+  font-family:"Kantumruy";
+}
+
+.Course_List_content_right_top_free_input {}
+
+.Course_List_content_right_top_parent_incompelet {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Course_List_content_right_top_incompelet_title {
+  font-family:"Kantumruy";
+}
+
+.Course_List_content_right_top_parent_rangePrice_input {}
+
+.Course_List_content_right_top_parent_rangePrice {
+  margin-bottom: px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+
+
+}
+
+
+
+.Course_List_content_right_top_rangePrice_title {
+  margin-bottom: 0;
+  font-family:"Kantumruy";
+}
+
+.price_range {
+  margin-top: 0;
+}
+
+.Course_List_content_right_top_parent_rangePrice_mobile {
+  padding-top: -10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  display: none;
+}
+
+.parent_Course_List_top_header_mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #6D6D6D;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.Course_List_content_right_top_rangePrice_title_mobile {}
+
+.Course_List_content_right_top_rangePrice_arrow_icon {
+  width: 30px;
+  height: 30px;
+  margin-top: 20px;
+}
+
+.icon_active {
+  transform: rotate(180deg);
+}
+
+.price_range_mobile {}
+
+.Course_List_content_right_buttom {
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  padding-top: 15px;
+  padding-bottom: 7px;
+  margin-top: 20px;
+}
+
+.Course_List_content_right_buttom_mobile {
+  display: none;
+}
+
+.parent_Course_List_content_right_buttom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  border-bottom: 1px solid #6D6D6D;
+  margin-bottom: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.Course_List_content_right_buttom_arrow_icon {
+  width: 30px;
+  height: 30px;
+}
+
+.Course_List_content_right_buttom_title {
+  font-family:"Kantumruy";
+}
+
+.Course_List_content_right_buttom_form {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.Course_List_content_right_buttom_parent_input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.Course_List_content_right_buttom_input_lable {
+  font-family:"Kantumruy";
+}
+
+.Course_List_content_right_buttom_input {}
+
+.Course_List_content_right_parent_btn {
+  margin-top: 25px;
+}
+
+.Course_List_content_right_btn {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: #1DD887;
+  border-radius: 8px;
+  color: #FFFFFF;
+  height: 33px;
+  font-family:"Kantumruy";
+  font-size: 18px;
+  
+}
+
+.Course_List_content_left {
+  margin-right: 45px;
+}
+
+
+.Course_List_content_left_top {
+  width: 350px;
+  height: 33px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+
+.Course_List_content_left_top_input {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  font-family: "inter";
+}
+
+.Course_List_content_left_top_icon {}
+
+.Course_List_content_left_courses {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.Course_List_content_left_courses *{
+  text-decoration: none;
+}
+.list_course_item {
+  width: 350px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #FFFFFF;
+  padding-top: 10px;
+  border-radius: 7px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+
+.list_course_item_image {
+  width: 100%;
+  height: 290px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.list_course_item_title {
+  margin-top: -2px;
+  color: #000000;
+  font-family: "Kantumruy";
+}
+
+.list_course_item_desc {
+  color: #949494;
+  font-family: "Kantumruy";
+}
+
+.list_course_item_parent_nameTeacher_star {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list_course_item_parentTaecher {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.list_course_item_Taecher {
+  color: #4FADD6;
+  font-family: "Kantumruy";
+}
+
+.list_course_item_NameTaecher {
+  color: #4FADD6;
+  font-family: "Kantumruy";
+}
+
+.list_course_item_parent_stars {
+  display: flex;
+  align-items: center;
+}
+
+.list_course_item_stars_numb {
+  margin-left: 7px;
+  color: #FCC81F;
+  font-family:"Kantumruy";
+}
+
+.list_course_item_stars_icon {
+  color: #FCC81F;
+}
+
+.list_course_item_parent_user_price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 13px;
+  margin-bottom: 10px;
+}
+
+.list_course_item_parent_user {
+  display: flex;
+  align-items: center;
+ 
+}
+
+.list_course_item_user_icon {
+  color: #414141;
+}
+
+.list_course_item_user_numb {
+  font-family: "DanaFaNum";
+  color: #000000;
+}
+
+.list_course_item_parent_price {}
+
+
+
+.list_course_item_price_main {
+  color: #1F97FA;
+  font-family: "DanaFaNum";
+}
+
+.list_course_item_price_SpanMain {
+  color: #1F97FA;
+  font-family: "Dana";
+}
+
+.parent_main_pagination_itesm {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.parent_pagination_items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 210px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn_next_page {
+  width: 20px;
+  height: 20px;
+}
+
+.parent_btn_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 110px;
+}
+
+.item_btn {
+  border: 1px solid #00000040;
+  border-radius: 100%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+}
+
+.active_page {
+  border: 1px solid #FFFFFF !important;
+  background-color: #37D390 !important;
+  color: #FFFFFF;
+}
+
+.item_btn_numb {
+  font-family: "DanaFaNum";
+}
+
+.btn_before {
+  width: 20px;
+  height: 20px;
+}
+
+
+
+
+/*استایلای مخصوص رینج*/
+.range-slider-container {
+  width: 100%;
+  margin: 25px auto;
+}
+
+.custom-track-0 {
+  height: 12px;
+  background: #FFFFFF;
+  /* رنگ سفید برای محدوده‌ی انتخاب نشده */
+  border-radius: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.custom-track-1 {
+  height: 12px;
+  background: #38D390;
+  /* رنگ سبز برای محدوده‌ی انتخاب شده */
+  border-radius: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.custom-slider {
+  height: 12px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.parent_Lines {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.line_main_right {
+  width: 2px;
+  height: 13px;
+  background-color: #D9D9D9;
+  margin-top: 6px;
+}
+
+.line_min {
+  width: 2px;
+  height: 4px;
+  background-color: #C2C2C2;
+}
+
+.line_max {
+  width: 3px;
+  height: 9px;
+  background-color: #7C7C7C;
+}
+
+.line_main_left {
+  width: 2px;
+  height: 13px;
+  background-color: #D9D9D9;
+  margin-top: 6px;
+}
+
+
+.custom-thumb {
+  width: 30px;
+  height: 30px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  top: -8px;
+  border: 1px solid #37D390;
+}
+
+.custom-track {
+  height: 12px;
+  background: #38D390;
+  border-radius: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.range-values {
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.parent_section_top_input_range {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.section_top_input_right {}
+
+.section_top_input_right_span {
+  font-family: "Kantumruy";
+}
+
+.section_top_input_range_shape1 {
+  border: 1px solid #00000040;
+  width: 106px;
+  height: 40px;
+  border-radius: 8px;
+  position: relative;
+  background-color: #FFFFFF;
+  padding-right: 5px;
+  padding-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Kantumruy";
+}
+
+.section_top_input_range_shape_numb_span {}
+
+.section_top_input_range_shape_numb {}
+
+.depend_section_top_input_range_shape {
+  width: 15px;
+  height: 15px;
+  border-left: 1px solid #00000040;
+  border-bottom: 1px solid #00000040;
+  position: absolute;
+  bottom: -8px;
+  transform: rotate(-45deg);
+  background-color: #FFFFFF;
+}
+
+.depend_section_top_input_range_shape1 {
+  right: 10px;
+}
+
+.depend_section_top_input_range_shape2 {
+  left: 10px;
+}
+
+.section_top_input_left {}
+
+.section_top_input_left_span {
+  font-family: "Kantumruy";
+}
+.range_values_max{
+  font-family: "inter";
+}
+.range_values_min{
+  font-family: "inter";
+}
+
+
+/* لودر قسمت دوره ها */
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 15px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  animation: l5 1s infinite linear alternate;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+@keyframes l5 {
+  0% {
+    box-shadow: 20px 0 #000, -20px 0 #0002;
+    background: #000
+  }
+
+  33% {
+    box-shadow: 20px 0 #000, -20px 0 #0002;
+    background: #0002
+  }
+
+  66% {
+    box-shadow: 20px 0 #0002, -20px 0 #000;
+    background: #0002
+  }
+
+  100% {
+    box-shadow: 20px 0 #0002, -20px 0 #000;
+    background: #000
+  }
+}
+
+
+input[type="checkbox"] {
+  accent-color: #1DD887;
+  
+}
+
+
+
+
+
+
+
+
+@media (max-width:1000px) {}
+
+
+@media (max-width:830PX) {
+
+
+  .Home_introduction_parent_learnHours {
+    width: 150px;
+    height: 150px;
+  }
+
+  .Home_introduction_parent_Course {
+    width: 150px;
+    height: 150px;
+  }
+
+  .Home_introduction_parent_Users {
+    width: 150px;
+    height: 150px;
+  }
+
+  .Home_introduction_learnHours_icon,
+  .Home_introduction_Course_icon,
+  .Home_introduction_Users_icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .Home_introduction_learnHours_number,
+  .Home_introduction_Course_number,
+  .Home_introduction_Users_number {
+    font-size: 18px;
+    margin-top: 4px;
+  }
+
+  .Home_introduction_learnHours_title,
+  .Home_introduction_Course_title,
+  .Home_introduction_Users_title {
+    font-size: 16px;
+  }
+
+  .Course_Suggestion_item {
+    width: 239px;
+  }
+
+  .list_course_item {
+    width: 239px;
+  }
+
+  .Course_List_content_left_top {
+    width: 239px;
+  }
+
+  .Home_information_right_top_right_title {
+    font-size: 16px;
+  }
+
+  .Home_information_right_top_left_title {
+    font-size: 18px;
+
+
+  }
+
+  .Course_List_content_right_top {
+    width: 100%;
+  }
+  .Home_information_left{
+    margin-top: -57px;
+  }
+
+}
+
+
+
+
+
+
+
+
+@media (max-width:579px) {
+
+  .Home_introduction_parent_learnHours,
+  .Home_introduction_parent_Course,
+  .Home_introduction_parent_Users {
+    width: 100px;
+    height: 100px;
+  }
+
+  .depend_Home_information1 {
+    width: 176px;
+    height: 180px;
+    top: -41px;
+    left: -15px;
+  }
+
+  .depend_Home_information2 {
+    width: 176px;
+    height: 180px;
+    bottom: -35px;
+    right: -24px;
+  }
+
+  .Course_Suggestion_header_title,.Course_list_header_title{
+    font-size: 26px;
+  }
+
+  .parent_Home_information_right_left {
+    flex-direction: column;
+  }
+
+  .Home_information_right,
+  .Home_information_left {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .Home_information_right {
+    order: 2;
+  }
+
+  .Home_information_left {
+    order: 1;
+  }
+
+  .parent_Home_information_right_desc {
+    order: 3;
+  }
+
+  .parent_Home_information_right_addres {
+    order: 4;
+  }
+
+  .Home_information_right_top {
+    width: 100%;
+  }
+
+  .Home_information_right_top_right_title {
+    font-size: 19px;
+  }
+
+  .Course_List_content_left_top {
+    display: none;
+  }
+
+  .search_Course_List_content__top_mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .search_Course_List_content__top_mobile_input {
+    border: none;
+    outline: none;
+  }
+
+  .search_Course_List_content__top_mobile_icon {}
+
+  .Course_List_content {
+    flex-wrap: wrap;
+  }
+
+  .Course_Suggestion_items {
+    justify-content: center;
+  }
+
+  .Course_List_content_left {
+    margin-right: 0;
+  }
+
+  .Course_List_content_right_top {
+    width: 250px;
+  }
+
+  .Course_List_content_left_courses {
+    margin-top: 25px;
+  }
+
+  .Home_information_right_top_left_title {
+    font-size: 19px;
+  }
+
+  .Course_List_content_left_courses {
+    justify-content: center;
+  }
+
+  .Course_List_content_right {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Course_List_content_right_top_parent_rangePrice_HideMobile {
+    display: none;
+  }
+
+  .Course_List_content_right_top_parent_rangePrice_mobile {
+    display: block;
+  }
+
+  .Course_List_content_right_buttom_HideMObile {
+    display: none;
+  }
+
+  .Course_List_content_right_buttom_mobile {
+    display: block;
+  }
+.mySwiper{
+  height: 280px;
+}
+  
+
+}
+
+@media (max-width:575px) {
+.Course_List_content_left{
+  margin-left: auto;
+  margin-right: auto;
+}
+.Course_Suggestion_item ,.list_course_item{
+  margin-left: 0;
+}
+.Home_information{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+}
+
+@media (max-width:400px) {
+
+  .Home_introduction_parent_learnHours,
+  .Home_introduction_parent_Course,
+  .Home_introduction_parent_Users {
+    width: 83px;
+    height: 83px;
+  }
+
+  .Home_introduction_learnHours_number,
+  .Home_introduction_Course_number,
+  .Home_introduction_Users_number {
+    font-size: 16px;
+  }
+
+  .Home_introduction_learnHours_title,
+  .Home_introduction_Course_title,
+  .Home_introduction_Users_title {
+    font-size: 14px;
+  }
+
+  .Home_introduction_desc {
+    margin-top: -2px;
+  }
+
+}

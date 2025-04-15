@@ -1,0 +1,1105 @@
+@font-face {
+  font-family: "Kantumruy";
+  src: url("../../font/Kantumruy/Kantumruy-Regular.woff");
+}
+
+@font-face {
+  font-family: "DanaFaNum";
+  src: url("../../font/Dana/Dana/Dana-FaNum-Regular.woff");
+}
+
+@font-face {
+  font-family: "Dana";
+  src: url("../../font/Dana/Dana/Dana-Regular.woff");
+}
+
+@font-face {
+  font-family: "AkayaKanadaka";
+  src: url("../../font/AkayaKanadaka/AkayaKanadaka-Regular.woff");
+}
+
+@font-face {
+  font-family: "days";
+  src: url("../../font/days/DaysOne-Regular.woff");
+}
+
+@font-face {
+  font-family: "inter";
+  src: url("../../font/inter/Inter-Medium.woff");
+}
+
+@font-face {
+  font-family: "KirangHaerang";
+  src: url("../../font/KirangHaerang/KirangHaerang-Regular.woff");
+}
+
+@font-face {
+  font-family: "Microsoft";
+  src: url("../../font/Microsoft/Microsoft-JhengHei-Regular.woff");
+}
+@font-face {
+  font-family: "Actor";
+  src: url("../../font/actor/Actor-Regular.woff");
+}
+
+.PanelAdmin {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  padding-right: 20px;
+  padding-left: 20px;
+
+}
+
+/*Loding */
+.lodeer1{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  z-index: 2000;
+  top: 0;
+  position: fixed;
+}
+
+.loader1{
+  width: 50px;
+  padding: 8px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #25b09b;
+  --_m:
+    conic-gradient(#0000 10%, #000),
+    linear-gradient(#000 0 0) content-box;
+  -webkit-mask: var(--_m);
+  mask: var(--_m);
+  -webkit-mask-composite: source-out;
+  mask-composite: subtract;
+  animation: l3 1s infinite linear;
+}
+
+@keyframes l3 {
+  to {
+    transform: rotate(1turn)
+  }
+}
+
+
+
+
+/*section*/
+.panelAdimn_parent_secions {
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  height: 705px;
+}
+
+.paneladmin_section_right {
+  padding-top: 30px;
+  width: 21%;
+  height: 100%;
+}
+
+.paneladmin_section_right_parent_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ABABAB;
+}
+
+.paneladmin_section_right_parent_top_right {
+  width: 50%;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .paneladmin_section_right_parent_top_right::after{
+  content: "";
+  position: absolute;
+  width: 1.5px;
+  height: 15px;
+  background-color: #00000040;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+} */
+.paneladmin_section_right_parent_top_right_shape {
+  content: "";
+  width: 1.5px;
+  height: 18px;
+  background-color: #00000040;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.paneladmin_section_right_parent_top_right_number {
+  font-size: 25px;
+  margin-bottom: 0;
+  font-family: "DanaFaNum";
+}
+
+.paneladmin_section_right_parent_top_right_span {
+  margin-top: 0px;
+  font-family: "DanaFaNum";
+}
+
+.paneladmin_section_right_parent_top_left {
+  width: 50%;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.paneladmin_section_right_parent_top_left_number {
+  font-size: 25px;
+  margin-bottom: 0;
+  font-family: "DanaFaNum";
+}
+
+.paneladmin_section_right_parent_top_left_span {
+  margin-top: 0px;
+  font-family: "DanaFaNum";
+}
+
+.paneladmin_section_right_parent_buutom {
+  margin-top: 20px;
+}
+
+.paneladmin_section_right_parent_buutom_parent_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 15px;
+}
+
+.paneladmin_section_right_parent_buutom_parent_header_course {
+  font-family: "Dana";
+}
+
+.paneladmin_section_right_parent_buutom_shape {
+  content: "";
+  width: 1.5px;
+  height: 10px;
+  background-color: #000000;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.paneladmin_section_right_parent_buutom_parent_header_teacher {
+  font-family: "Dana";
+}
+
+.paneladmin_section_right_parent_buutom_item {
+  border: 1px solid #66666659;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  min-height: 25px;
+  font-size: 14px;
+}
+
+.paneladmin_section_right_parent_buutom_item:hover {
+  background-color: #DBF0FF;
+}
+
+
+.paneladmin_section_right_parent_buutom_item_title {
+  color: #000000;
+  font-family: "Dana";
+}
+
+.paneladmin_section_right_parent_buutom_item_teacher {
+  color: #565656;
+  font-family: "Dana";
+}
+
+.paneladmin_section_middle {
+  width: 64%;
+  padding-left: 50px;
+  height: 100%;
+  border-right: 1px solid #ABABAB;
+  padding-right: 20px;
+  border-left: 1px solid #ABABAB;
+}
+
+.paneladmin_section_middle_title {
+  font-family: "Dana";
+}
+
+.paneladmin_section_middle_parent_right_left {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.paneladmin_section_middle_parent_secRight {
+  width: 67%;
+}
+
+.paneladmin_section_middle_parent_secRight_parent_name_teach {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.paneladmin_section_middle_parent_name {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.paneladmin_section_middle_name_span {
+  font-family: "Dana";
+}
+
+.paneladmin_section_middle_name_input {
+  border: 1px solid #66666659;
+  margin-top: -5px;
+  outline: none;
+  border-radius: 4px;
+  height: 25px;
+  padding-right: 7px;
+  font-family: "Dana";
+}
+
+.paneladmin_section_middle_parent_teacher {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.paneladmin_section_middle_teacher_span {
+  font-family: "Dana";
+}
+
+.paneladmin_section_middle_teacher_input {
+  border: 1px solid #66666659;
+  margin-top: -5px;
+  outline: none;
+  border-radius: 4px;
+  height: 25px;
+  padding-right: 7px;
+  font-family: "Dana";
+}
+
+.paneladmin_section_middle_parent_secRight_parent_summary {
+  width: 100%;
+
+}
+.paneladmin_section_middle_parent_secRight_parent_desc_span{
+  font-family: "Dana";
+}
+
+
+.paneladmin_section_middle_parent_secRight_parent_desc_input {
+  width: 100%;
+  border: 1px solid #66666659;
+  outline: none;
+  border-radius: 4px;
+  height: 50px;
+  resize: none;
+  font-family: "Dana";
+}
+.paneladmin_section_middle_parent_secRight_desc_span{
+  font-family: "Dana";
+}
+
+.paneladmin_section_middle_parent_secRight_desc_input {
+  width: 100%;
+  resize: none;
+  border: 1px solid #66666659;
+  outline: none;
+  border-radius: 4px;
+  height: 190px;
+  overflow-y: auto;
+  font-family: "Dana";
+}
+
+
+.paneladmin_section_middle_parent_secRight_desc_input::-webkit-scrollbar {
+  width: 2px;
+}
+
+.paneladmin_section_middle_parent_secRight_desc_input::-webkit-scrollbar-track {
+  background-color: #E3E3E3;
+}
+
+.paneladmin_section_middle_parent_secRight_desc_input::-webkit-scrollbar-thumb {
+  background-color: #13CB7C;
+  border-radius: 10px;
+}
+
+.paneladmin_section_middle_parent_secRight_desc_input::-webkit-scrollbar-thumb:hover {
+  background-color: #13CB7C;
+}
+
+
+.paneladmin_section_middle_parent_secRight_parent_Price {
+  width: 64%;
+  margin-bottom: 20px;
+}
+
+.paneladmin_section_middle_parent_secRight_Price_title {
+  font-family: "Dana";
+}
+
+.paneladmin_section_middle_parent_secRight_Price_input_price_second {
+  width: 100%;
+  height: 25px;
+  border: 1px solid #66666659;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.paneladmin_section_middle_parent_secRight_Price_input {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  border-radius: 4px;
+  padding-right: 5px;
+  width: 100%;
+  font-family: "Dana";
+}
+
+.paneladmin_section_middle_parent_secRight_Price_input_price_second_span {
+  margin-left: 7px;
+  font-family: "Dana";
+}
+
+
+
+
+.paneladmin_section_middle_secLeft_parent_top {
+  text-align: center;
+  border: 1px solid #66666659;
+  border-radius: 8px;
+}
+
+.paneladmin_section_middle_secLeft_span {
+  color: #2684FF;
+  margin-bottom: 0px;
+  font-size: 20px;
+  font-family: "Dana";
+}
+
+.paneladmin_section_middle_secLeft_icon {
+  color: #2684FF;
+  margin-top: -8px;
+}
+
+.paneladmin_section_middle_secLeft_nameFile {
+  font-size: 13px;
+  margin-top: -5px;
+  font-family: "Dana";
+}
+
+.paneladmin_section_middle_secLeft_parent_image {
+  width: 150px;
+  height: 140px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #66666659;
+  margin-bottom: 20px;
+}
+
+.paneladmin_section_middle_secLeft_image {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.paneladmin_section_middle_secLeft_category{
+  font-family: "Dana";
+}
+.paneladmin_section_middle_secLeft_category_selection_parent_top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  border-radius: 8px;
+  position: relative;
+  z-index: 1000;
+  background-color: #FFFFFF;
+}
+
+.paneladmin_section_middle_secLeft_category_selection_parent_top_section_search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #66666659;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  padding-left: 10px;
+  background-color: #FFFFFF;
+  overflow: hidden;
+}
+
+
+.paneladmin_section_middle_secLeft_category_input {
+  outline: none;
+  border: none;
+  background-color: inherit;
+  padding-right: 7px;
+  height: 100%;
+  font-family: "Dana";
+}
+
+
+.active_icon_category {
+  transform: rotate(-90deg);
+}
+
+.section_middle_secLeft_category_selection_depend {
+  position: absolute;
+  top: 23px;
+  border-left: 1px solid #66666659;
+  border-right: 1px solid #66666659;
+  border-bottom: 1px solid #66666659;
+  z-index: -100;
+  background-color: #FFFFFF;
+  width: 100%;
+  padding-top: 10px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  height: 140px;
+  overflow-y: auto;
+  direction: ltr;
+}
+
+
+.section_middle_secLeft_category_selection_depend::-webkit-scrollbar {
+  width: 2px;
+}
+
+.section_middle_secLeft_category_selection_depend::-webkit-scrollbar-thumb {
+  background-color: #13CB7C;
+  border-radius: 10px;
+}
+
+.section_middle_secLeft_category_selection_depend::-webkit-scrollbar-track {
+  background-color: #E3E3E3;
+  margin: 5px 0;
+  /* اضافه کردن فاصله از بالا و پایین */
+}
+
+.section_middle_secLeft_category_selection_depend::-webkit-scrollbar-thumb:hover {
+  background-color: #13CB7C;
+}
+
+.section_middle_secLeft_category_selection_depend_list {
+  padding: 0;
+  margin: 0;
+}
+
+.section_middle_secLeft_category_selection_depend_item {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 7px;
+  padding-left: 15px;
+  margin-bottom: 7px;
+}
+
+
+
+.paneladmin_section_middle_secLeft_category_selection_depend_icon {
+  color: #1DD887;
+  width: 10px;
+  height: 10px;
+}
+
+.section_middle_secLeft_category_selection_depend_item_span{
+  font-family: "Dana";
+}
+.paneladmin_section_middle_secLeft_condition{
+  font-family: "Dana";
+}
+
+.paneladmin_section_middle_secLeft_condition_selection_parent_top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  border-radius: 8px;
+  position: relative;
+  z-index: 500;
+  background-color: #FFFFFF;
+}
+
+.paneladmin_section_middle_secLeft_condition_selection_parent_top_section_search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  border: 1px solid #66666659;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  padding-left: 10px;
+}
+
+.paneladmin_section_middle_secLeft_condition_input {
+  outline: none;
+  border: none;
+  background-color: inherit;
+  padding-right: 7px;
+  font-family: "Dana";
+}
+
+
+.section_middle_secLeft_condition_selection_depend {
+  position: absolute;
+  top: 23px;
+  border-left: 1px solid #66666659;
+  border-right: 1px solid #66666659;
+  border-bottom: 1px solid #66666659;
+  z-index: -100;
+  width: 100%;
+  padding-top: 10px;
+  height: 70px;
+  overflow-y: auto;
+  background-color: #FFFFFF;
+  direction: ltr;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.section_middle_secLeft_condition_selection_depend_item_span{
+  font-family: "Dana";
+}
+.section_middle_secLeft_condition_selection_depend::-webkit-scrollbar {
+  width: 2px;
+}
+
+.section_middle_secLeft_condition_selection_depend::-webkit-scrollbar-thumb {
+  background-color: #13CB7C;
+  border-radius: 10px;
+
+}
+
+.section_middle_secLeft_condition_selection_depend::-webkit-scrollbar-track {
+  background-color: #E3E3E3;
+  margin: 5px 0;
+  /* اضافه کردن فاصله از بالا و پایین */
+}
+
+.section_middle_secLeft_condition_selection_depend::-webkit-scrollbar-thumb:hover {
+  background-color: #13CB7C;
+}
+
+.section_middle_secLeft_condition_selection_depend_list {
+  padding: 0;
+  margin: 0;
+}
+
+.section_middle_secLeft_condition_selection_depend_item {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 7px;
+  padding-left: 15px;
+  margin-bottom: 7px;
+}
+
+
+.paneladmin_section_middle_secLeft_condition_selection_depend_icon {
+  color: #1DD887;
+  width: 10px;
+  height: 10px;
+}
+
+.paneladmin_section_middle_parent_btn {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.paneladmin_section_middle_btn {
+  width: 300px;
+  height: 30px;
+  background-color: #1DD887;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-size: 17px;
+  font-family: "Dana";
+}
+
+.paneladmin_section_left1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* width: 180px; */
+  width: 200px;
+  margin-left: 30px;
+  padding-right: 15px;
+}
+
+.paneladmin_section_left_top {
+  padding-top: 20px;
+  width: 100%;
+}
+
+.paneladmin_section_left_top_item1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 12px;
+}
+
+.paneladmin_section_left_top_item1_right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  font-family: "days";
+}
+
+.paneladmin_section_left_top_item1_span1 {
+  color: #838383;
+  font-size: 12px;
+}
+
+.paneladmin_section_left_top_item1_span2 {
+  font-size: 1px;
+  color: #000000;
+}
+
+.paneladmin_section_left_top_item1_parent_shape {
+  width: 20px;
+  height: 21px;
+  background-color: #1DD887;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paneladmin_section_left_top_item1_shape {
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+}
+
+
+
+.paneladmin_section_left_top_item2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #1DD887;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 12px;
+  height: 25px;
+}
+
+.paneladmin_section_left_top_item2_span {
+  color: #FFFFFF;
+  font-family: "Dana";
+  font-size: 15px;
+}
+
+.paneladmin_section_left_top_item2_icon {
+  color: #FFFFFF;
+}
+
+.paneladmin_section_left_top_item66 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 12px;
+  height: 25px;
+}
+.paneladmin_section_left_top_item66_span{
+  font-family: "Dana";
+  font-size: 15px;
+}
+
+.paneladmin_section_left_top_item3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 25px;
+}
+
+.paneladmin_section_left_top_item3_span{
+  font-family: "Dana";
+  font-size: 15px;
+}
+
+.paneladmin_section_left_bootum {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.paneladmin_section_left_bootum_parent_info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.paneladmin_section_left_bootum_parent_info_right {
+  text-align: end;
+  margin-left: -26px;
+}
+
+.paneladmin_section_left_bootum_parent_info_right_name {
+  margin-bottom: 0;
+  font-size: 18px;
+  margin-top: 11px;
+  font-family: "Actor";
+}
+
+.paneladmin_section_left_bootum_parent_info_right_role {
+  margin-top: 0;
+  color: #2747B0;
+  font-size: 14px;
+  font-family: "Actor";
+}
+
+.paneladmin_section_left_bootum_parent_info_left {
+  margin-right: -10px;
+}
+
+.paneladmin_section_left_bootum_parent_info_left_image {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+
+}
+
+.paneladmin_section_left_bootum_SignOut {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.paneladmin_section_left_bootum_SignOut_span {
+  font-size: 15px;
+  font-family: "Dana";
+}
+
+.paneladmin_section_left_bootum_SignOut_icon {
+  font-size: 25px;
+}
+
+.margin_top {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.LinkOpload {
+  color: #000;
+  text-decoration: none;
+}
+
+.paneladmin_section_right_parent_buutom_btn_category {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 100px;
+  height: 30px;
+}
+
+.paneladmin_section_right_buutom_btn_category {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  background-color: #49ADFF;
+  color: #FFFFFF;
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: "DanaFaNum";
+}
+
+.order_section {
+  z-index: -10000 !important;
+}
+
+/* section category*/
+.modal_category {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  /* background: rgba(0, 0, 0, 0.5); */
+  background-color: #B8B8B840;
+  /* رنگ پس‌زمینه نیمه شفاف */
+  backdrop-filter: blur(6px);
+  z-index: 100;
+}
+
+.modal_category_content {
+  position: fixed;
+  width: 400px;
+  height: 300px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  margin-top: 170px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.modal_category_content_title {
+  font-family: "Dana";
+}
+
+.section_name {}
+
+.title_section_name {
+  margin-bottom: 4px;
+  font-family: "Dana";
+}
+
+.input_section_name {
+  outline: none;
+  border: 1px solid #00000033;
+  border-radius: 6px;
+  width: 100%;
+  height: 25px;
+  padding-right: 8px;
+  font-family: "Dana";
+}
+
+.section_List {
+  border-radius: 4px;
+  border: 1px solid #00000033;
+  margin-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  height: 92px;
+  overflow-y: scroll;
+  direction: ltr;
+}
+
+.section_List::-webkit-scrollbar {
+  width: 3px;
+}
+
+.section_List::-webkit-scrollbar-thumb {
+  background-color: #13CB7C;
+  border-radius: 10px;
+}
+
+.section_List::-webkit-scrollbar-track {
+  background-color: #E3E3E3;
+  margin: 5px 0;
+  /* اضافه کردن فاصله از بالا و پایین */
+}
+
+.section_List::-webkit-scrollbar-thumb:hover {
+  background-color: #13CB7C;
+}
+
+
+
+.section_List_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 7px;
+}
+
+.section_List_item_name {
+  font-family: "Dana";
+  font-size: 14px;
+}
+
+.section_List_item_icon {
+  color: #FF4962;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+}
+
+.section_btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.section_btn_cancle {
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  background: #FF4962;
+  color: #FFFFFF;
+  width: 80px;
+  height: 25px;
+  font-size: 16px;
+  font-family: "Dana";
+}
+
+.section_btn_confirm {
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  background: #13CB6F;
+  color: #FFFFFF;
+  width: 80px;
+  height: 25px;
+  font-size: 16px;
+  font-family: "Dana";
+}
+
+
+/* ریسپانسیوسازی */
+
+
+@media (max-width:1200px) {
+  .paneladmin_section_right_parent_buutom_item {
+    margin-right: 12px;
+    margin-left: 12px;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  .paneladmin_section_middle_parent_right_left {
+    flex-direction: column;
+  }
+
+  .panelAdimn_parent_secions {
+    height: auto;
+  }
+
+  .paneladmin_section_middle_parent_secRight {
+    width: 100%;
+  }
+
+  .paneladmin_section_middle_parent_btn {
+    margin-top: 85px;
+    margin-bottom: 28px;
+  }
+
+  .paneladmin_section_right {
+    width: 28%;
+  }
+}
+
+@media (max-width:1000px) {
+  .paneladmin_section_right {
+    width: 28%;
+  }
+
+  .paneladmin_section_middle {
+    width: 52%;
+  }
+
+  .paneladmin_section_left {
+    width: 215px;
+    margin-left: 7px;
+    padding-right: 7px;
+  }
+}
+
+
+@media (max-width:900px) {
+  .paneladmin_section_right{
+    width: 35%;
+  }
+  .paneladmin_section_middle{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .paneladmin_section_right_parent_buutom_btn_category{
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .paneladmin_section_left_top_item1{
+    padding-left: 2px;
+    gap: 5px;
+  }
+  .paneladmin_section_right_parent_buutom_parent_header{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .paneladmin_section_right_parent_top_right_span{
+    font-size: 14px;
+  }
+  .paneladmin_section_right_parent_buutom_item{
+    padding-right: 4px;
+    padding-left: 4px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media (max-width:810px) {
+ .paneladmin_section_middle_name_input{
+  width: 100%;
+ }
+ .paneladmin_section_middle_teacher_input{
+  width: 100%;
+ }
+ .paneladmin_section_right_buutom_btn_category{
+  font-size: 15px;
+ }
+}

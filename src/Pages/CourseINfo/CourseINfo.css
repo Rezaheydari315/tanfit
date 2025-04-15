@@ -1,0 +1,544 @@
+@font-face {
+    font-family: "Kantumruy";
+    src: url("../../font/Kantumruy/Kantumruy-Regular.woff");
+  }
+  @font-face{
+    font-family: "DanaFaNum";
+    src: url("../../font/Dana/Dana/Dana-FaNum-Regular.woff");
+  }
+  @font-face{
+    font-family: "Dana";
+    src: url("../../font/Dana/Dana/Dana-Regular.woff");
+  }
+  @font-face{
+    font-family: "AkayaKanadaka";
+    src: url("../../font/AkayaKanadaka/AkayaKanadaka-Regular.woff");
+  }
+  @font-face{
+    font-family: "days";
+    src: url("../../font/days/DaysOne-Regular.woff");
+  }
+  @font-face{
+    font-family: "inter";
+    src: url("../../font/inter/Inter-Medium.woff");
+  }
+  @font-face{
+    font-family: "KirangHaerang";
+    src: url("../../font/KirangHaerang/KirangHaerang-Regular.woff");
+  }
+  @font-face{
+    font-family: "Microsoft";
+    src: url("../../font/Microsoft/Microsoft-JhengHei-Regular.woff");
+  }
+  @font-face{
+    font-family: "IranianSans";
+    src: url("../../font/IranianSans/A-Iranian-Sans/Iranian-Sans.woff");
+  }
+
+.parent_Courseinfo {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.parent_Courseinfo_section_top {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    margin-top: 95px;
+    background-color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.CourseINfo_top_right_title{
+    font-family: "Kantumruy";
+}
+
+.CourseINfo_top {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 25px;
+    
+}
+
+.CourseINfo_top_right {
+   margin-left: 33px;
+   text-align: start;
+   /* height: 388px; */
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.CourseINfo_top_right_top {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.Courseinfo_header_parent_shape {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.Courseinfo_header_shape1 {
+    width: 10px;
+    height: 20px;
+    background-color: #019C5A;
+}
+
+.Courseinfo_header_shape2 {
+    width: 11px;
+    height: 25px;
+    background-color: #1EBF7A;
+}
+
+.Courseinfo_header_shape3 {
+    width: 13px;
+    height: 30px;
+    background-color: #3DE99F;
+}
+
+
+
+.CourseINfo_top_right_desc {
+    color: #949494;
+    width: 80%;
+    /* overflow: scroll; */
+    font-family: "Kantumruy";
+}
+.CourseINfo_left{
+    height: 388px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.CourseINfo_left_image {
+    width: 318px;
+    height: 243px;
+    border-radius: 8px;
+    margin-top: 20px;
+   
+}
+
+.CourseINfo_left_btn {
+    width: 100%;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #1DD887;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin-top: 10px;
+    font-family: "Kantumruy";
+}
+
+.CourseINfo_buttom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.CourseINfo_buttom_right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+   
+}
+
+.CourseINfo_buttom_right_parent_teacher {
+  display: flex;
+  align-items: center;
+ 
+}
+
+.CourseINfo_buttom_right_teacher_title {
+    color: #3A9BF5;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 10px;
+    font-family: "Kantumruy";
+}
+
+.CourseINfo_buttom_right_teacher_name {
+    font-weight: normal;
+    font-size: 15px;
+    color: #3A9BF5;
+    font-family: "Kantumruy";
+}
+
+.CourseINfo_buttom_left {
+    margin-top: 20px;
+    width: 315px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CourseINfo_buttom_left_parent_star {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #FFBF35;
+}
+
+
+.CourseINfo_buttom_left_star_icon1{
+    width: 20px;
+    height: 20px;
+}
+.CourseINfo_buttom_left_star_icon {
+    width: 20px;
+    height: 20px;
+}
+
+.CourseINfo_buttom_left_parent_users {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #3CD953;
+}
+
+.CourseINfo_buttom_left_users_numb {}
+
+.CourseINfo_buttom_left_users_icon {}
+
+.CourseINfo_buttom_left_parent_price {
+    font-size: 18px;
+}
+
+.CourseINfo_buttom_left_price_numb {
+    margin-left: 5px;
+    font-family: "DanaFaNum";
+    font-weight: bold;
+}
+
+.COurseinfo_section_content_top_titel,.parent_Courseinfo_section_content_noFilm{
+    font-family: "Kantumruy";
+}
+
+.parent_Courseinfo_section_comment_right_title{
+    font-family: "Kantumruy";
+}
+.Courseinfo_section_comment_right_item_header_left{
+    margin-left: 5px;
+}
+.Courseinfo_section_comment_right_item_header_left_name{
+    font-family: "Dana";
+}
+.Courseinfo_section_comment_right_item_header_left_date{
+    font-family: "DanaFaNum";
+}
+.parent_Courseinfo_section_content {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 40px;
+    padding-bottom: 35px;
+}
+
+.COurseinfo_section_content_top {
+    display: flex;
+    align-items: center;
+}
+
+.courseinfoContent_header_parent_shape {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.courseinfoContent_header_shape1 {
+    width: 10px;
+    height: 20px;
+    background-color: #9F0045;
+}
+
+.courseinfoContent_header_shape2 {
+    width: 11px;
+    height: 25px;
+    background-color: #CD045B;
+}
+
+.courseinfoContent_header_shape3 {
+    width: 13px;
+    height: 30px;
+    background-color: #F31877;
+}
+
+
+
+.parent_Courseinfo_section_content_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.parent_Courseinfo_section_content_item {
+    width: 250px;
+    height: 300px;
+    border-radius: 8px;
+    background-color: #D9D9D9;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.parent_Courseinfo_section_content_item_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.parent_Courseinfo_section_comment {
+    margin-top: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding-bottom: 40px;
+}
+.parent_Courseinfo_section_comment_right_left{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+
+
+.Courseinfo_section_comment_right_top {
+    display: flex;
+    align-items: center;
+}
+
+.courseinfoContent_comment_parent_shape {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.courseinfoContent_comment_shape1 {
+    width: 10px;
+    height: 20px;
+    background-color: #007BA8;
+}
+
+.courseinfoContent_comment_shape2 {
+    width: 11px;
+    height: 25px;
+    background-color: #009CD4;
+}
+
+.courseinfoContent_comment_shape3 {
+    width: 13px;
+    height: 30px;
+    background-color: #28C6FF;
+}
+
+
+
+.Courseinfo_section_comment_right_item {
+width: 100%;
+background-color: #EFEFEF;
+border-radius: 8px;
+padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 10px;
+margin-bottom: 15px;
+}
+
+.Courseinfo_section_comment_right_item_header {
+    display: flex;
+    align-items: center;
+}
+
+.Courseinfo_section_comment_right_item_header_right {
+    margin-left: 12px;
+}
+
+.Courseinfo_section_comment_right_item_header_image {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+
+
+.Courseinfo_section_comment_right_item_header_left_date {
+    margin-top: -12px;
+    color: #787878;
+}
+
+.Courseinfo_section_comment_right_item_CONTENT {
+    padding-right: 30px;
+    font-family: "IranianSans";
+}
+
+
+
+.parent_Courseinfo_section_comment_left {
+    
+    width: 300px;
+}
+
+.parent_Courseinfo_section_comment_left_btn {
+    display: block;
+    border: none;
+    outline: none;
+    width: 100%;
+    background-color: #2EA1F3;
+    border-radius: 8px;
+    color: #FFFFFF;
+    height: 30px;
+    font-size: 16px;
+    font-family: "Kantumruy";
+}
+
+.parent_Courseinfo_section_comment_left_input {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 250px;
+    margin-top: 15px;
+    background-color: #EFEFEF;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    font-size: 15px;
+    resize: none;
+    font-family: "Kantumruy";
+}
+
+/* لودر مربوطه */
+.lodeer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    z-index: 2000;
+    position: absolute;
+    top: 0;
+  }
+  .loader {
+    width: 50px;
+    padding: 8px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: #25b09b;
+    --_m: 
+      conic-gradient(#0000 10%,#000),
+      linear-gradient(#000 0 0) content-box;
+    -webkit-mask: var(--_m);
+            mask: var(--_m);
+    -webkit-mask-composite: source-out;
+            mask-composite: subtract;
+    animation: l3 1s infinite linear;
+  }
+  @keyframes l3 {to{transform: rotate(1turn)}}
+
+.Courseinfo_section_comment_right_item_span{
+    text-align: start;
+    font-size: 18px;
+    color: #F1314B;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: "Kantumruy";
+}
+
+
+
+
+
+@media(max-width:1200px) {
+  
+}
+
+@media (max-width:730px) {
+.CourseINfo_top{
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+.CourseINfo_top_right_desc{
+   
+    width: 318px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+.CourseINfo_top_right{
+    margin-left: 0;
+    margin-top: 42px;
+}
+.parent_Courseinfo_section_comment_right_left{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.parent_Courseinfo_section_comment_left{
+    width: 100%;
+}
+.Courseinfo_section_comment_right_item{
+    width: 100%
+}
+.parent_Courseinfo_section_comment_right{
+    margin-top: 20px;
+    width: 100%;
+}
+.CourseINfo_buttom_left{
+    margin-top: 0;
+}
+.CourseINfo_left{
+    height: 345px;
+}
+}
+
+@media (max-width:677px) {
+    .parent_Courseinfo_section_content_items{
+        justify-content: center;
+    }
+}
+
+
+@media (max-width:500px) {
+    .CourseINfo_left_image{
+        width: 100%;
+    }
+    .CourseINfo_left {
+        width: 100%;
+    }
+    .CourseINfo_buttom_left{
+        width: 100%;
+    }
+    .CourseINfo_top_right_desc{
+        width: 100%;
+    }
+    .parent_Courseinfo_section_content_item{
+        margin-left: 0;
+        width: 100%;
+    }
+    .Courseinfo_section_comment_right_item{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .parent_Courseinfo_section_comment ,.parent_Courseinfo_section_content ,.parent_Courseinfo_section_top{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .CourseINfo_top_right_top,.CourseINfo_top{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .parent_Courseinfo_section_content_item{
+        height: 250px;
+    }
+    .CourseINfo_top_right{
+        width: 100%;
+    }
+}

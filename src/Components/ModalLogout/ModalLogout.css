@@ -1,0 +1,52 @@
+@font-face{
+  font-family: "Dana";
+  src: url("../../font/Dana/Dana/Dana-Regular.woff");
+}
+
+
+/* Modal.css */
+.modal-overlay11 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000000;
+  }
+  
+  .modal-content11 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 10000000;
+  } 
+
+  
+  .modal-actions11 {
+    margin-top: 20px;
+  }
+  
+  .confirm-button11, .cancel-button11 {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Dana";
+  }
+  
+  .confirm-button11 {
+    background-color: #ff4d4f;
+    color: white;
+  }
+  
+  .cancel-button11 {
+    background-color: #f0f0f0;
+    color: #333;
+  }

@@ -1,0 +1,278 @@
+@font-face {
+    font-family: "Kantumruy";
+    src: url("../../font/Kantumruy/Kantumruy-Regular.woff");
+  }
+  @font-face{
+    font-family: "DanaFaNum";
+    src: url("../../font/Dana/Dana/Dana-FaNum-Regular.woff");
+  }
+  @font-face{
+    font-family: "Dana";
+    src: url("../../font/Dana/Dana/Dana-Regular.woff");
+  }
+  @font-face{
+    font-family: "AkayaKanadaka";
+    src: url("../../font/AkayaKanadaka/AkayaKanadaka-Regular.woff");
+  }
+  @font-face{
+    font-family: "days";
+    src: url("../../font/days/DaysOne-Regular.woff");
+  }
+  @font-face{
+    font-family: "inter";
+    src: url("../../font/inter/Inter-Medium.woff");
+  }
+  @font-face{
+    font-family: "KirangHaerang";
+    src: url("../../font/KirangHaerang/KirangHaerang-Regular.woff");
+  }
+  @font-face{
+    font-family: "Microsoft";
+    src: url("../../font/Microsoft/Microsoft-JhengHei-Regular.woff");
+  }
+  @font-face{
+    font-family: "IranianSans";
+    src: url("../../font/IranianSans/A-Iranian-Sans/Iranian-Sans.woff");
+  }
+
+
+.Parent_Footer{
+margin-top: 30px;
+width: 100%;
+left: 0;
+right: 0;
+position: absolute;
+}
+.Footer{
+    border-top: 1px solid #00000040; 
+    padding-left: 80px;
+    padding-right: 60px;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+.parent_footer_right_left{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+}
+.Footer_right{
+  width: 50%;
+}
+
+.Footer_right_title{
+    font-family: "Dana";
+}
+.Footer_right_title_bold{
+    color: #16d281;
+}
+.Footer_right_parent_shape_span{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+}
+.footer_parent_shape{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: -37px;
+}
+.footer_shape1{
+    width: 10px;
+    height: 20px;
+    background-color: #026596;
+}
+.footer_shape2{
+    width: 11px;
+    height: 25px;
+    background-color: #0397CD;
+}
+.footer_shape3{
+    width: 13px;
+    height: 30px;
+    background-color: #27C5FF;
+}
+.Footer_right_shape_span{
+    font-family: "Kantumruy";
+    font-size: 19px;
+    font-weight: bold;
+}
+.Footer_right_description{
+  color: #949494;
+  font-family: "Kantumruy";
+}
+.Footer_left{
+   display: flex;
+  
+   justify-content: space-between;
+}
+.Footer_left_sec_right{
+   margin-left:45px;
+}
+.Footer_left_sec_right_title{
+ font-size: 20px;
+ font-weight: bold;
+ font-family: "Kantumruy";
+}
+.Footer_left_sec_right_List{
+  padding: 0;
+  margin: 0
+  ;
+  display: flex;
+  flex-direction: column;
+  gap: 8px
+  ;
+}
+.Footer_left_sec_right_List_item{
+list-style-type: none; 
+font-size: 16px;
+font-weight: normal;
+font-family: "Kantumruy";
+}
+.Footer_left_sec_left{
+ 
+}
+.Footer_left_sec_left_title{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Kantumruy";
+}
+.Footer_left_sec_left_List{
+    margin: 0;
+    padding: 0;
+    display:  flex;
+    flex-direction: column;
+    gap: 18px
+    ;
+}
+.Footer_left_sec_left_List_item{
+ list-style-type: none;
+ font-size: 16px;
+font-weight: normal;
+display: flex;
+align-items: center;
+gap: 7px;
+font-family: "Dana";
+}
+.Footer_left_sec_left_List_item_link{
+ 
+}
+.Footer_left_sec_left_List_item_link_icon{
+
+}
+.Footer_left_sec_left_List_item{
+ 
+}
+.Footer_left_sec_left_List_item_gmail{
+
+}
+.Footer_left_sec_left_List_item_gmail_icon{
+
+}
+.Footer_left_sec_left_List_item{
+
+}
+.Footer_left_sec_left_List_item_phone{
+    font-family: "DanaFaNum" !important;
+}
+.Footer_left_sec_left_List_item_phone_icon{
+
+}
+.parent_footer_bottom{
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+}
+.parent_footer_bottom_desc{
+   font-size: 14px;
+}
+.parent_footer_bottom_desc_link{
+    color: #27C5FF;
+}
+.parent_footer_bottom_desc_span{
+    font-family: "IranianSans";
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px
+}
+.parent_footer_bottom_copy{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 3px;
+}
+.footer_bottom_copy_icon{
+
+}
+.footer_bottom_copy_span{
+    font-family: "IranianSans";
+}
+
+@media (max-width:810px) {
+    .parent_footer_right_left{
+        flex-direction: column;
+        align-items: center;
+    }
+    .Footer_right{
+        width: 100%;
+    }
+    .Footer_left{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .parent_footer_bottom_desc_span{
+        font-size: 16px;
+    }
+    .parent_footer_bottom_copy {
+        margin-top: 5px;
+        font-size: 14px;
+    }
+    .Footer_right_title {
+        font-size: 22px;
+        text-align: center;
+    }
+    .Footer{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .footer_parent_shape {
+        right: -25px;
+    }
+    .footer_shape3 {
+        width: 10px;
+        height: 23px;
+    }
+    .footer_shape2{
+        width: 8px;
+        height: 18px;
+    }
+    .footer_shape1{
+        width: 7px;
+        height: 13px;
+    }
+    .Footer_right_shape_span{
+        margin-right: 10px;
+    }
+}
+@media (max-width:540px) {
+    .Footer_right_title {
+        font-size: 18px;
+        text-align: center;
+    }
+    .Footer_right_description {
+        font-size: 14px;
+    }
+    .Footer_right_shape_span{
+        font-size: 17px;
+    }
+    .Footer_left_sec_right {
+        margin-left: 10px;
+    }
+    .Footer_left_sec_right_title ,.Footer_left_sec_left_title{
+        font-size: 15px;
+    }
+    .Footer_left_sec_right_List_item ,.Footer_left_sec_left_List_item{
+        font-size: 14px;
+    }
+    
+}

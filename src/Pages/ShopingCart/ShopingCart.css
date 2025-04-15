@@ -1,0 +1,347 @@
+:root{
+  --colorr:#000000;
+}
+
+@font-face {
+  font-family: "Kantumruy";
+  src: url("../../font/Kantumruy/Kantumruy-Regular.woff");
+}
+@font-face{
+  font-family: "DanaFaNum";
+  src: url("../../font/Dana/Dana/Dana-FaNum-Regular.woff");
+}
+@font-face{
+  font-family: "Dana";
+  src: url("../../font/Dana/Dana/Dana-Regular.woff");
+}
+@font-face{
+  font-family: "AkayaKanadaka";
+  src: url("../../font/AkayaKanadaka/AkayaKanadaka-Regular.woff");
+}
+@font-face{
+  font-family: "days";
+  src: url("../../font/days/DaysOne-Regular.woff");
+}
+@font-face{
+  font-family: "inter";
+  src: url("../../font/inter/Inter-Medium.woff");
+}
+@font-face{
+  font-family: "KirangHaerang";
+  src: url("../../font/KirangHaerang/KirangHaerang-Regular.woff");
+}
+@font-face{
+  font-family: "Microsoft";
+  src: url("../../font/Microsoft/Microsoft-JhengHei-Regular.woff");
+}
+@font-face{
+  font-family: "IranianSans";
+  src: url("../../font/IranianSans/A-Iranian-Sans/Iranian-Sans.woff");
+}
+
+.Shoping{
+width: 100%;
+height: 100% ;
+font-family: "Bkodak";
+margin-top: 80px;
+}
+.container{
+    width:94% ;
+    margin-left: auto;
+    margin-right:auto ;
+}
+.Shoping_header{
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: -10px;
+}
+
+
+/* content*/
+.Shoping_content{
+   display: flex;
+   position: relative;
+}
+.Shoping_content_right{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 20px;
+   padding-right: 20px ;
+   width: 80%;
+   border: 1px solid #00000066;
+   border-radius: 5px;
+   background-color: #FCFCFC;
+   padding-top: 20px;
+   flex-wrap: wrap;
+   position: relative;
+   
+}
+.Shoping_content_item{
+  width: 270px;
+  border: 1px solid #00000026;
+  border-radius: 7px;
+  margin-bottom: 15px;
+  position: relative;
+  min-height: 271px;
+  margin-left: 10px;
+}
+.Shoping_content_item_img{
+  width: 100%;
+  height: 150px;
+  border-radius: 7px;
+  object-fit: cover;
+}
+.Shoping_content_item_footer{
+ width: 100%;
+ border-top: 1px solid #8D8D8D;
+ background-color: #FCFCFC;
+ border-top-left-radius:5px ;
+ border-top-right-radius:5px ;
+ padding-left: 10px;
+ padding-right: 10px;
+ position: absolute;
+ top: 145px;
+}
+.Shoping_content_item_title{
+font-size: 18px;
+color: var(--colorr);
+font-family: "AkayaKanadaka";
+font-weight: normal;
+}
+
+.Shoping_header_right_title{
+  font-family: "IranianSans";
+  
+}
+.Shoping_header_right_number{
+  font-family: "IranianSans";
+  color: #737373;
+}
+
+.Shoping_content_item_teacher{
+ margin-top: -10px;
+ color: #B5B5B5;
+ font-size: 12px;
+ font-family: "IranianSans";
+}
+.Shoping_content_item_nameTeacher{
+ color: #B5B5B5;
+ font-size: 12px;
+ font-family: "IranianSans";
+}
+.Shoping_content_item_footer_price_btn{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ 
+}
+.Shoping_content_item_footer_parentBtn{
+width: 150px;
+display: flex;
+background-color: #F1314B;
+align-items: center;
+height: 30px;
+border-radius: 7px;
+padding-right: 5px;
+font-family: "IranianSans";
+}
+.Shoping_content_item_footer_icon{
+    color: #FCFCFC;
+}
+.Shoping_content_item_footer_btn{
+    outline: none;
+    border: none;
+    background-color: inherit;
+    font-size: 11px;
+    color: #FCFCFC;
+    font-family: "IranianSans";
+    border-radius: 7px;
+    height: 100%;
+}
+
+
+.Shoping_content_item_footer_price{
+font-size: 12px;
+color: var(--colorr);
+font-family: "DanaFaNum";
+}
+.Shoping_content_left{
+margin-right: 20px;
+margin-top: -53px;
+}
+.parent_Shoping_left_pricaALL{
+  width: 270px;
+  /* height: 160px; */
+  border: 1px solid #00000066;
+  border-radius: 7px;
+  background-color: #FCFCFC;
+  padding-top: 15px;
+}
+.Shoping_content_left_priceALL{
+margin-top: -14px;
+}
+.Shoping_content_left_priceALL_item{
+ padding-right: 10px;
+ padding-left: 10px;
+ color: #B5B5B5;
+ margin-bottom: 10px;
+ font-size: 15px;
+ display: flex;
+ justify-content: space-between;
+}
+.Shoping_content_left_priceALL_itemName{
+  font-family: "IranianSans";
+}
+.Shoping_content_left_priceALL_itemProce{
+  font-family: "DanaFaNum";
+}
+.Shoping_content_left_totalPrice{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding-right: 10px;
+ padding-left: 10px;
+ font-size: 16px;
+ border-top: 1px solid #8D8D8D;
+margin-top: 25px;
+color: var(--colorr);
+}
+.Shoping_content_left_totalPrice_title{
+font-size: 18px;
+color: var(--colorr);
+font-family: "IranianSans";
+}
+.Shoping_content_left_totalPrice_number{
+  font-family: "DanaFaNum";
+}
+.Shoping_content_left_totalPrice_btn {
+  font-family: "IranianSans";
+}
+.Shoping_content_left_totalPrice_btn{
+ width: 270px;
+ border: none;
+ outline: none;
+ background-color: #34D05E;
+ height: 30px;
+ border-radius: 7px;
+ margin-top: 20px;
+ color: #FCFCFC;
+ font-size: 14px;
+ margin-bottom: 80px;
+}
+.Parent_modal{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 500;
+}
+.Shoping_content_right_span_empety{
+  font-size: 16px;
+  text-align: start;
+  color: #e63946;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.Shoping_header_left_title{
+  font-family: "IranianSans";
+}
+.Shoping_content_right_span_empety_Sidebar{
+  font-size: 16px;
+  text-align: start;
+  color: #e63946;
+  padding-right: 10px;
+}
+.disableBtn{
+  pointer-events: none; /* غیرفعال کردن کلیک */
+   opacity: 0.5; /* تغییر ظاهر دکمه برای نشان دادن غیرفعال بودن */
+  cursor: not-allowed; /* تغییر شکل کرسر به نشانه غیرفعال بودن */
+}
+
+/*responvise*/
+
+@media (max-width:925px) {
+  .Shoping_content_item{
+    width: 235px;
+  }
+  .Shoping_content_item_footer{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+@media (max-width:610px) {
+  .Shoping_header_right{
+    display: none;
+  }
+  .Shoping_content_right_span_empety{
+    top: -14px;
+    font-size: 13px;
+  }
+  .Shoping_content_right_span_empety_Sidebar{
+    font-size: 13px;
+  }
+  .Shoping_content{
+    margin-top: 40px;
+  }
+  .Shoping_content_item{
+    width: 98%;
+   margin-left: auto;
+   margin-right: auto;
+  }
+
+
+  .Shoping_content_right{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .Shoping_content{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .Shoping_content_left{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+   width: 80%;
+  }
+  .Shoping_header_left_title{
+    margin-bottom: 30px;
+   
+  }
+  .parent_Shoping_left_pricaALL{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .Shoping_content_left_totalPrice_btn{
+    width: 100%;
+    cursor: pointer;
+  }
+}
+@media (max-width:380px) {
+  .Shoping_content_item {
+   height: 303px;
+  }
+  .Shoping_content_item_footer_price_btn{
+    flex-direction: column-reverse;
+  }
+  .Shoping_content_left_totalPrice_title{
+    font-size: 15px;
+  }
+  .Shoping_content_left_totalPrice_number{
+    font-size: 14px;
+  }
+  .Shoping_content_left_priceALL_item{
+    font-size: 13px;
+  }
+}
