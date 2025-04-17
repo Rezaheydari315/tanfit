@@ -153,13 +153,13 @@ export default function Login() {
                     // Swal.fire({ title: "رمز رو اشتباه وارد کردی", text: "لطفا دوباره امتحان کن", icon: "error" })
 
                     setshowTextError(true)
-                    setTitleTextError("خطا")
+                    setTitleTextError("اخطار")
                     setValueTextError("رمز رو اشتباه وارد کردی")
 
                 } else if (error.response.data.message === 'User not Found') {
                     // Swal.fire({ title: "نام کاربری یافت نشد", text: "لطفا دوباره امتحان کن", icon: 'error' })
                     setshowTextError(true)
-                    setTitleTextError("خطا")
+                    setTitleTextError("اخطار")
                     setValueTextError("نام کاربری یافت نشد")
                 }
             }

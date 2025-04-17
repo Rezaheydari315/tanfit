@@ -207,8 +207,9 @@ export default function Signup() {
                         setshowTextError(true);
                         setTitleTextError("اخطار")
                         setValueTextError("نام کاربری وارد شده تکراری است")
-                    // } else if (error.response.data.message === "Email already exists" && error.response.status === 409) {
-                        Swal.fire({ title: "ایمیل وارد شده تکرای است", icon: "error", text: "لطفا ایمیل دیگری را امتحان کنید." })
+                                
+                    } else if (error.response.data.message === "Email already exists" && error.response.status === 409) {
+                        // Swal.fire({ title: "ایمیل وارد شده تکرای است", icon: "error", text: "لطفا ایمیل دیگری را امتحان کنید." })
                         setshowTextError(true);
                         setTitleTextError("اخطار")
                         setValueTextError("ایمیل وارد شده تکرای است")
